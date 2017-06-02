@@ -1,9 +1,5 @@
 package com.example.pc.classregister;
 
-/**
- * Created by pc on 2017-03-13.
- */
-
 public class Notice {
 
     String notice;
