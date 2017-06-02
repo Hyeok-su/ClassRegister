@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>----가천리버럴아츠칼리지----</item>
+        <item>자유전공(인문)</item>
+
+        <item>----경영대학----</item>
+        <item>경영학트랙</item>
+        <item>글로벌경영학트랙</item>
+        <item>금융수학과</item>
+
+        <item>----사회과학대학----</item>
+        <item>행정학과</item>
+        <item>미디어커뮤니케이션학과</item>
+        <item>관광경영학과</item>
+        <item>글로벌경제학과</item>
+        <item>헬스케어경영학과</item>
+        <item>응용통계학과</item>
+        <item>사회복지학과</item>
+        <item>유아교육학과</item>
+        <item>경찰연계학전공</item>
+
+        <item>----인문대학----</item>
+        <item>한국어문학과</item>
+        <item>영미어문학과</item>
+        <item>동양어문학과</item>
+        <item>유럽어문학과</item>
+
+        <item>----법과대학----</item>
+        <item>법학과</item>
+        <item>경찰·안보학과</item>
+
+        <item>----공과대학----</item>
+        <item>도시계획학과</item>
+        <item>조경학과</item>
+        <item>실내건축학과</item>
+        <item>건축학과</item>
+        <item>건축공학과</item>
+        <item>전기공학과</item>
+        <item>설비플랜트소방방재공학과</item>
+        <item>화공생명공학과</item>
+        <item>기계공학과</item>
+        <item>토목환경공학과</item>
+        <item>산업경영공학과</item>
+
+        <item>----바이오나노대학----</item>
+        <item>식품생물공학과</item>
+        <item>영양학과</item>
+        <item>바이오나노학과</item>
+        <item>생명과학과</item>
+        <item>나노물리학과</item>
+        <item>나노화학과</item>
+
+        <item>----IT대학----</item>
+        <item>소프트웨어설계ㆍ경영학과</item>
+        <item>컴퓨터공학과</item>
+        <item>전자공학과</item>
+        <item>에너지IT학과</item>
+
+        <item>----한의과대학----</item>
+        <item>한의예과</item>
+        <item>한의학과</item>
+
+        <item>----예술대학----</item>
+        <item>회화조소전공</item>
+        <item>시각디자인전공</item>
+        <item>산업디자인전공</item>
+        <item>패션디자인전공</item>
+        <item>성악전공</item>
+        <item>기악전공</item>
+        <item>작곡전공</item>
+        <item>체육전공</item>
+        <item>태권도전공</item>
+        <item>연기예술학과</item>
+
+        <item>----의과대학----</item>
+        <item>의예과</item>
+        <item>의학과</item>
+
+        <item>----약학대학----</item>
+        <item>약학과</item>
+
+        <item>----간호대학----</item>
+        <item>간호학과</item>
+
+        <item>----보건과학대학----</item>
+        <item>치위생학과</item>
+        <item>응급구조학과</item>
+        <item>방사선학과</item>
+        <item>물리치료학과</item>
+        <item>의용생체공학과</item>
+        <item>운동재활복지학과</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2017년도</item>
+        <item>2018년도</item>
+        <item>2019년도</item>
+        <item>2020년도</item>
+        <item>2021년도</item>
+        <item>2022년도</item>
+    </string-array>
+
+    <string-array name="term">
+        <item>1학기</item>
+        <item>여름학기</item>
+        <item>2학기</item>
+        <item>겨울학기</item>
+
+    </string-array>
+
+    <string-array name="graduateArea">
+        <item>일반대학원</item>
+    </string-array>
+
+    <string-array name="universityArea">
+        <item>전공</item>
+        <item>교양 및 기타</item>
+    </string-array>
+
+    <string-array name="graduateMajor">
+        <item>대학원 학과들..</item>
+    </string-array>
+
+    <string-array name="universityRefinementMajor">
+        <item>계열교양..</item>
+    </string-array>
+    
+    <string-array name="universityMajor">
+        <item>모든 학과들...</item>
+    </string-array>
+</resources>

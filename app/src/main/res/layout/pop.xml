@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:drawableStart="@drawable/ic_live_help_black_24dp"
+        android:drawableLeft="@drawable/ic_live_help_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="어플리케이션 정보"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:drawableStart="@drawable/ic_build_black_24dp"
+        android:drawableLeft="@drawable/ic_build_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="어플리케이션 버전 : 0.1 Ver"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:drawableStart="@drawable/ic_security_black_24dp"
+        android:drawableLeft="@drawable/ic_security_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="개발자 : 가천대학교 컴퓨터공학과 김혁수"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:drawableStart="@drawable/ic_assignment_black_24dp"
+        android:drawableLeft="@drawable/ic_assignment_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주요 기능"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:drawableStart="@drawable/ic_star_border_black_24dp"
+                    android:drawableLeft="@drawable/ic_star_border_black_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="수강 신청"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:drawableStart="@drawable/ic_star_border_black_24dp"
+                    android:drawableLeft="@drawable/ic_star_border_black_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="강의 찜목록"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:drawableStart="@drawable/ic_star_border_black_24dp"
+                    android:drawableLeft="@drawable/ic_star_border_black_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="강의 결원 시 찜한 사용자에게 Push 알림"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:drawableStart="@drawable/ic_star_border_black_24dp"
+                    android:drawableLeft="@drawable/ic_star_border_black_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="시간표"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:drawableStart="@drawable/ic_star_border_black_24dp"
+                    android:drawableLeft="@drawable/ic_star_border_black_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="자동 로그인"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
