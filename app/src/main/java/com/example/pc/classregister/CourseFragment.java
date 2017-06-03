@@ -214,7 +214,7 @@ public class CourseFragment extends Fragment {
         @Override
         protected void onPreExecute() {
             try {
-                target = "http://okpo0356.dothome.co.kr/CourseList.php?courseUniversity=" + URLEncoder.encode(courseUniversity, "UTF-8") +
+                target = "" /* CourseList.php?courseUniversity= */ + URLEncoder.encode(courseUniversity, "UTF-8") +
                         "&courseYear=" + URLEncoder.encode(yearSpinner.getSelectedItem().toString().substring(0, 4), "UTF-8") +
                         "&courseTerm=" + URLEncoder.encode(termSpinner.getSelectedItem().toString(), "UTF-8") +
                         "&courseArea=" + URLEncoder.encode(areaSpinner.getSelectedItem().toString(), "UTF-8") +

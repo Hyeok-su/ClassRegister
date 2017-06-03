@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class SendPushData extends StringRequest{
 
-    final static private String URL = "http://okpo0356.dothome.co.kr/PushNotification.php";
+    final static private String URL = ""; // PushNotification.php
     private Map<String, String> parameters;
 
     public SendPushData(String userID, String courseTitle, String courseID, Response.Listener<String> listener){

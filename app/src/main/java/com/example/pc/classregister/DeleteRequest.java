@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class DeleteRequest extends StringRequest{
 
-    final static private String URL = "http://okpo0356.dothome.co.kr/ScheduleDelete.php";
+    final static private String URL = ""; // ScheduleDelete.php
     private Map<String, String> parameters;
 
     public DeleteRequest(String userID, String courseID, Response.Listener<String> listener){

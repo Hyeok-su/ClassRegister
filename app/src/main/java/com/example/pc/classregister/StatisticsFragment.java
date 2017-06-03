@@ -150,7 +150,7 @@ public class StatisticsFragment extends Fragment {
         @Override
         protected void onPreExecute() {
             try{
-                target = "http://okpo0356.dothome.co.kr/StatisticsCourseList.php?userID=" + URLEncoder.encode(MainActivity.userID, "UTF-8");
+                target = "" /* StatisticsCourseList.php?userID= */ + URLEncoder.encode(MainActivity.userID, "UTF-8");
             }
             catch (Exception e) {
                 e.printStackTrace();
@@ -230,7 +230,7 @@ public class StatisticsFragment extends Fragment {
         @Override
         protected void onPreExecute() {
             try{
-                target = "http://okpo0356.dothome.co.kr/StatisticsCourseDips.php?userID=" + URLEncoder.encode(MainActivity.userID, "UTF-8");
+                target = "" /* StatisticsCourseDips.php?userID= */ + URLEncoder.encode(MainActivity.userID, "UTF-8");
             }
             catch (Exception e) {
                 e.printStackTrace();

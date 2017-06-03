@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class DipsDeleteRequest extends StringRequest{
 
-    final static private String URL = "http://okpo0356.dothome.co.kr/DipsDelete.php";
+    final static private String URL = ""; // DipsDelete.php
     private Map<String, String> parameters;
 
     public DipsDeleteRequest(String userID, String courseID, Response.Listener<String> listener){

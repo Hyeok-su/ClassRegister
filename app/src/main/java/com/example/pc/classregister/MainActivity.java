@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             try {
-                target = "http://okpo0356.dothome.co.kr/NoticeList.php?userID=" + URLEncoder.encode(MainActivity.userID, "UTF-8");
+                target = "" /* NoticeList.php?userID= */ + URLEncoder.encode(MainActivity.userID, "UTF-8");
             }
             catch (Exception e) {
                 e.printStackTrace();
@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
 
         //request
         Request request = new Request.Builder()
-                .url("http://okpo0356.dothome.co.kr/TokenRegister.php")
+                .url("") // TokenRegister.php
                 .post(body)
                 .build();
 

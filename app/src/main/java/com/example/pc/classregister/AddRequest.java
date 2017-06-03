@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class AddRequest extends StringRequest{
 
-    final static private String URL = "http://okpo0356.dothome.co.kr/CourseAdd.php";
+    final static private String URL = ""; //CourseAdd.php
     private Map<String, String> parameters;
 
     public AddRequest(String userID, String courseID, Response.Listener<String> listener){

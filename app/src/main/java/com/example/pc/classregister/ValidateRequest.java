@@ -3,7 +3,6 @@ package com.example.pc.classregister;
 import com.android.volley.Response;
 import com.android.volley.toolbox.StringRequest;
 
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,7 +12,7 @@ import java.util.Map;
 
 public class ValidateRequest extends StringRequest{
 
-    final static private String URL = "http://okpo0356.dothome.co.kr/UserValidate.php";
+    final static private String URL = ""; // UserValidate.php
     private Map<String, String> parameters;
 
     public ValidateRequest(String userID, Response.Listener<String> listener){

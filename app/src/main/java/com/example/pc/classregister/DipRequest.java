@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class DipRequest extends StringRequest{
 
-    final static private String URL = "http://okpo0356.dothome.co.kr/CourseDip.php";
+    final static private String URL = ""; // CourseDip.php
     private Map<String, String> parameters;
 
     public DipRequest(String userID, String courseID, Response.Listener<String> listener){
