@@ -128,8 +128,6 @@ public class StatisticsCourseListAdapter extends BaseAdapter {
                     RequestQueue queue = Volley.newRequestQueue(parent.getActivity());
                     queue.add(deleteRequest);
 
-                    // 서버에서 어떻게 해결해야 하지..... ㅠㅠ 너무 어렵다...
-                    // 삭제 시 해당 강의를 찜한 사용자들에게 Push메시지 전송
                     if(courseList.get(i).getCourseRival() < courseList.get(i).getCoursePersonnel()) {
                         Log.d("SendData", "CourseID : " + courseList.get(i).getCourseID());
                         SendPushData sendPushData = new SendPushData(userID, courseList.get(i).getCourseTitle(), courseList.get(i).getCourseID() + "", responseListener);

@@ -1,7 +1,6 @@
 package com.example.pc.classregister;
 
 import android.content.SharedPreferences;
-import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
@@ -19,7 +18,7 @@ public class FirebaseInstanceIDService extends FirebaseInstanceIdService {
     public void onTokenRefresh() {
         // Get updated InstanceID token.
         String token = FirebaseInstanceId.getInstance().getToken();
-        Log.d(TAG, "Refreshed token: " + token);
+//        Log.d(TAG, "Refreshed token: " + token);
         savePreferences(token);
 
     }
